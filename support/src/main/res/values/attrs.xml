@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircularImageView">
+
+        <attr name="ringColor" format="color" />
+        <attr name="ringWidth" format="dimension" />
+        <attr name="ringPadding" format="dimension" />
+
+        <!-- src just for android:src,
+             fore just for android:foreground,
+             srcAndFore for src and fore,
+             all for src, foreground and background -->
+        <attr name="ringMode" format="enum">
+            <enum name="src" value="1" />
+            <enum name="fore" value="2" />
+            <enum name="srcAndFore" value="3" />
+            <enum name="all" value="7" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="CropImageView">
+
+        <attr name="crop" format="dimension" />
+        <attr name="cropLeft" format="dimension" />
+        <attr name="cropTop" format="dimension" />
+        <attr name="cropRight" format="dimension" />
+        <attr name="cropBottom" format="dimension" />
+
+        <attr name="radius" format="dimension" />
+        <attr name="radiusLeftTop" format="dimension" />
+        <attr name="radiusRightTop" format="dimension" />
+        <attr name="radiusLeftBottom" format="dimension" />
+        <attr name="radiusRightBottom" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="LabelView">
+
+        <attr name="borderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+
+    </declare-styleable>
+
+</resources>
